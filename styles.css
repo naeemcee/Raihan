@@ -169,6 +169,13 @@ em {
 
 /* -----------------------------------------------------------------------------------------------SECTIONS */
 
+section > h3{
+    border-bottom: 2px solid darkgreen;
+    color: black;
+    font: 45px "comic sans MS", sans-serif;
+    clear: right;
+}
+
 section {
     min-height: 100vh;
     padding: 100px 30px;
@@ -283,25 +290,27 @@ section img {
     }
 }
 
+/*---------------------------------------------------------------------------------------------------------FAMILY*/
 
-/*-----------------------------------------------------------------------------------------------------------FRIENDS   */
-
-.sec5 > p{
-    color: black;
-    padding-top: 10px;
-}
-.sec5 > p > img{
-    margin-left: 12px; 
+.sec2 > p > img{
+    margin-left: 20px; 
     float: right;
     height: 250px;
     width: 250px;
     border: 2px solid black;
 }
-.sec5 > h3{
-    border-bottom: 1px dashed red;
+/*-----------------------------------------------------------------------------------------------------------FRIENDS   */
+
+section > p{
     color: black;
-    font: 45px "comic sans MS", sans-serif;
-    clear: right;
+    padding-top: 10px;
+}
+.sec5 > p > img{
+    margin-left: 20px; 
+    float: right;
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
 }
 .name{
     font: 20px "comic sans MS", sans-serif;
