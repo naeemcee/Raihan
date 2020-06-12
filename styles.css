@@ -135,12 +135,13 @@ em {
     background-color: burlywood;
     background-image: url('./images/Raihan-1.jpg');
     /* background-image: url('./images/tmm_brochure_photos-003.jpg'); */
-    filter: grayscale(60%);
+    filter: grayscale(45%);
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: top;
     height: 100vh;
     position: relative;
+    background-size: 100%;
     /* margin: 10px; */
     /* margin-bottom: 100px; */
     
@@ -160,6 +161,7 @@ em {
     width: 100%;
     margin: auto auto;
     z-index: -1;
+    opacity: 75%;
 }
 
 .header-caption > h2 {
@@ -242,6 +244,15 @@ section img {
     width: 250px;
     height: 250px;
 }
+.me{
+    height: 500px;
+    width: 100%;
+    border: 2px solid darkgreen;
+}
+.img-title{
+    text-align: center;
+    font: 18px black monda, arial;
+}
 
 /* --------------------------------------------------------------------------------------------MEDIA QUERIES */
 
@@ -301,6 +312,9 @@ section img {
 }
 /*-----------------------------------------------------------------------------------------------------------FRIENDS   */
 
+.last{
+    padding-bottom: 50px;
+}
 section > p{
     color: black;
     padding-top: 10px;
@@ -321,6 +335,18 @@ section > p{
     font: 20px arial;
     color: black;
     font-weight: bold;
+}
+.maps{
+    padding: 10px;
+    font: 20px monda;
+    color: #aba1a1;
+    background-color: #383333;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid #292929; 
+    margin-top:  50px;  
+    box-shadow: -5px black;
+    width: 200px;
 }
 
 /*
