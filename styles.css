@@ -174,7 +174,7 @@ em {
 section > h3{
     border-bottom: 2px solid darkgreen;
     color: black;
-    font: 45px "comic sans MS", sans-serif;
+    font: 40px sans-serif;
     clear: right;
 }
 
@@ -347,6 +347,16 @@ section > p{
     margin-top:  50px;  
     box-shadow: -5px black;
     width: 200px;
+}
+.instagram{
+    padding: 5px;
+    font: 15px monda, arial;
+    color: var(--text-clr-dark);
+    background-color: #c4c4c4;
+    text-decoration: none;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 1px; 
 }
 
 /*
