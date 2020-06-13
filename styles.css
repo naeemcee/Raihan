@@ -134,7 +134,6 @@ em {
 .header {
     background-color: burlywood;
     background-image: url('./images/Raihan-1.jpg');
-    /* background-image: url('./images/tmm_brochure_photos-003.jpg'); */
     filter: grayscale(45%);
     object-fit: cover;
     background-repeat: no-repeat;
